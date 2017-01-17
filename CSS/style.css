@@ -21,8 +21,8 @@ header .row{
 .main{
 	background-color: #E7F3FF;
 }
- .container .row{
-	
+ .container {
+	max-width: 1000px;
 }
 
 .main p{
@@ -45,11 +45,19 @@ img {
 	width: 45px;
 }
 
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
 
-
-
-
+.plot p{
+	max-height: 200px;
+}
+.bio{
+	max-height: 200px;
+}
 
 
 
